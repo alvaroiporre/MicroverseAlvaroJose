@@ -9,7 +9,7 @@
   <body>
     <header id="header">  
       <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" > </img> 
-      <nav id="nav-bar">
+      <nav id="nav-bar" style="position: fixed;width: 100%;top: 0;left: 0;">
         <ul>
           <li > <a href="#features" class="nav-link" id="features-link"> Features </a> </li>
           <li > <a href="#how-it-works" class="nav-link"id="howitworks-link"> How It Works</a> </li>
@@ -17,8 +17,9 @@
         </ul>
       </nav>
     </header>
-    <form id="form" action="">
-      <input type="email" id="email" placeholder="Email">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" placeholder="Email" name="email">
+      <input id="submit" type="submit" placeholder="submit">
     </form>
     <video id="video" src="https://youtu.be/y8Yv4pnO7qc"> </video>
     <footer>
